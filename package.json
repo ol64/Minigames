@@ -33,6 +33,7 @@
     "webpack-merge": "^4.2.2"
   },
   "dependencies": {
+    "express": "^4.18.1",
     "phaser": "^3.50.0",
     "webfontloader": "^1.6.28"
   }
