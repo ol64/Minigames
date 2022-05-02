@@ -8,9 +8,6 @@ import mute from '../assets/mute.png'
 import audio from '../assets/audio.png'
 import bgm from '../assets/zelda-theme.mp3'
 import gameBGM from '../assets/zelda-searching.mp3'
-import quitButton from '../assets/quit-button.png'
-import playAgainButton from '../assets/playagain-button.png'
-import playButton from '../assets/play-button.png'
 import WebFontFile from '../assets/WebFontFile'
 
 //spites
@@ -30,7 +27,6 @@ class Preloader extends Phaser.Scene {
 		//menu
 		this.load.image('background', background)
 		this.load.audio('bgm', [bgm])
-		this.load.image('playButton', playButton)
 		const fonts = new WebFontFile(this.load, 'Grandstander')
 		this.load.addFile(fonts)
 		this.load.image('audio', audio)
@@ -39,8 +35,6 @@ class Preloader extends Phaser.Scene {
 		//game
 		this.load.image('gameBackground', gameBackground)
 		this.load.audio('gameBGM', [gameBGM])
-		this.load.image('quitButton', quitButton)
-		this.load.image('playAgainButton', playAgainButton)
 		this.load.spritesheet('sokoban', sokoban, { frameWidth: 64 })
 		this.load.image('bear', bear)
 		this.load.image('chicken', chicken)
