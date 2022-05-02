@@ -37,6 +37,6 @@
     "express": "^4.18.1",
     "phaser": "^3.50.0",
     "webfontloader": "^1.6.28",
-    "webpack-dev-server": "^3.9.0",
+    "webpack-dev-server": "^3.9.0"
   }
 }
