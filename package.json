@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "build": "webpack --config webpack/prod.js ",
-    "start": "webpack --config webpack/prod.js ",
+    "start": "webpack --config webpack/prod.js webpack/base.js --open",
     "start:dev": "webpack-dev-server --config webpack/base.js --open"
   },
   "repository": {
