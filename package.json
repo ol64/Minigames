@@ -30,12 +30,12 @@
     "terser-webpack-plugin": "^2.2.1",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10",
-    "webpack-dev-server": "^3.9.0",
     "webpack-merge": "^4.2.2"
   },
   "dependencies": {
     "express": "^4.18.1",
     "phaser": "^3.50.0",
-    "webfontloader": "^1.6.28"
+    "webfontloader": "^1.6.28",
+    "webpack-dev-server": "^3.9.0",
   }
 }
